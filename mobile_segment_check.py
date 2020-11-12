@@ -72,7 +72,7 @@ while True:
         while True:
             try:
                 #组装ip138网站的号段查询URL
-                url = 'http://www.ip138.com:8080/search.asp?mobile=' + str(haoduan) + '&action=mobile'
+                url = 'http://www.ip138.com/mobile.asp?mobile=' + str(haoduan) + '&action=mobile'
                 #print('url = ' + url)
                 
                 #根据失败计数更换代理IP，没有失败则不换代理IP
