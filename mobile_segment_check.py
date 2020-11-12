@@ -23,6 +23,7 @@ header = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/53
 
 #首先获取代理IP列表
 url = 'http://www.nimadaili.com/http/1/'
+#url = 'https://www.kuaidaili.com/free/intr/'
 print('url = ' + url)
 
 try:
